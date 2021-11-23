@@ -13,8 +13,8 @@ const Clarifai = require('clarifai')
 const clarif = new Clarifai.App({
     apiKey: '[*Clarify key*]'
 });
-var client_id = '[*Spotify API Client ID*]'; // Your client id
-var client_secret = '[*Spotify API Secret*]'; // Your secret
+var client_id = '[*41a633391b604f3089d776807d544d1b*]'; // Your client id
+var client_secret = '[*3460abed28734976a16136bd1329acb4*]'; // Your secret
 var redirect_uri = 'http://localhost:8880/callback'; // Your redirect uri
 
 /**
